@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="index.php" method="post">
+  <form action="associative.php" method="post"> <!-- The problem was form action path -->
     <label>Enter a comis character Name</label><br>
     <input type="text" name="name"><br>
     <input type="submit">
