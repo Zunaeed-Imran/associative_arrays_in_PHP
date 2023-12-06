@@ -6,7 +6,7 @@
   <title>Document</title>
 </head>
 <body>
-  <form action="index.php" method="post">
+  <form action="associative.php" method="post">
     <label>Enter a comis character Name</label><br>
     <input type="text" name="namecomis"><br>
     <input type="submit">
