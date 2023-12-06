@@ -19,9 +19,9 @@
                    "stark" => "Tony Stark The genious Mechanic"               
                 );
 
-                $marvel = $marvel[$_POST['hero']];
+                $m = $marvel[$_POST['hero']];
 
                 if(isset($_POST['submit'])){
-                  echo $marvel;
+                  echo $m;
                 }
 ?>
