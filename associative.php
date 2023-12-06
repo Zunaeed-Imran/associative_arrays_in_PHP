@@ -13,9 +13,10 @@
   </form>
 </body>
 </html>
-
+<!--  html input code end -->
 
 <?php
+// PHP code Start
 
 $marvel = array("dormamu" => "Most-powerful-being",
                 "strange" => "Master of misticles",
