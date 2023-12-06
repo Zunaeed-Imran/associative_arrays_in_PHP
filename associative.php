@@ -8,7 +8,7 @@
 <body>
   <form action="index.php" method="post">
     <label>Enter a comis character Name</label><br>
-    <input type="text" name="namecomis"><br>
+    <input type="text" name="name"><br>
     <input type="submit">
   </form>
 </body>
@@ -23,7 +23,7 @@ $marvel = array("dormamu" => "Most-powerful-being",
                 "stark" => "Smart of all time",
                 );
 
-                $marvel = $marvel[$_POST['namecomis']];
+                $marvel = $marvel[$_REQUEST['name']];
 
                 echo "title of this hero is {$marvel}";
 ?>
